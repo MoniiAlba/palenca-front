@@ -3,6 +3,7 @@
     <component
         :is="componentSelected"
         @nextStep="stepNumber = stepNumber + 1"
+        @back="stepNumber = stepNumber - 1"
         />
   </div>
 </template>
